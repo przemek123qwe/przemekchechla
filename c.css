@@ -1,0 +1,76 @@
+body
+{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DCFFA8;
+    font-family: calibri;
+}
+#pojemnik
+{
+    width:100%;
+}
+#naglowek
+{
+    height: 40px;
+    background-color: #37402A;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    
+}
+#menu
+{
+    width: 20%;
+    height: 80vh;
+    background-color: #6E8054;
+}
+#zawartosc
+{
+    width:70%;
+    height: 80vh;
+    background-color: #C6E697;
+}
+#stopka
+{
+    height: 30px;
+    background-color: #A5BF7E;
+    font-size:25px;
+    text-align: center;
+}
+.guziczek
+{
+    background-color: #37402A;
+    text-decoration: none;
+    display:block;
+    color: white;
+    font-family: arial;
+    width:150px;
+    border-radius: 5px;
+    text-align: center;
+}
+.guziczek:hover
+{
+    background-color: #DCFFA8;
+    color: black;
+}
+#menu>ul
+{
+    padding-left: 0;
+    
+    margin: 20px;
+    list-style-type: none;
+}
+#menu>ul>li
+{
+    margin-top:10px;
+}
+a
+{
+    color: #37402A;
+}
+a:hover
+{
+    color: #6E8054;
+}
